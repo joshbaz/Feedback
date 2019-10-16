@@ -5,7 +5,7 @@ app.get('/', (req, res, next) => {
     res.send({'name': 'JOSHUA KIMBAREEBA'});
     next();
 });
-app.get('/dashboard', (req, res){
+app.get('/dashboard', (req, res) =>{
     res.send({'description': 'A humbled Man'});
 })
 const PORT = process.env.PORT || 5000;
